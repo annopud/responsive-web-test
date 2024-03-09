@@ -1,0 +1,19 @@
+.grid_container {
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .grid_container {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: -6px;
+    margin-right: -6px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .grid_container {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: initial;
+    margin-right: initial;
+  }
+}

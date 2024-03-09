@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mySwiper > .swiper-wrapper {
+  align-items: center;
+}
+
+.mySwiper.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 18px;
+}
+
+.mySwiper > .swiper-pagination > .swiper-pagination-bullet {
+  --swiper-theme-color: #5c3caf;
+  width: 10px;
+  height: 10px;
+}
+
+.mySwiper.swiper-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin-right: 6px;
+  margin-left: 6px;
+}

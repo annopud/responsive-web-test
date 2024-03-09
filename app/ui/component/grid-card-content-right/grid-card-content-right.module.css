@@ -1,0 +1,25 @@
+.grid_content {
+  margin: 60px 20px 60px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .grid_content {
+    gap: 20px;
+  }
+  .grid_content.right {
+    grid-column: 2/4;
+    margin: 30px 36px 30px 37px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .grid_content.right {
+    grid-column-start: 2;
+    max-width: 717px;
+    padding: initial;
+    margin: 60px 48px 60px 48px;
+  }
+}

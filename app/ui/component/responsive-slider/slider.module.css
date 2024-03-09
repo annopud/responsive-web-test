@@ -1,0 +1,17 @@
+.slider_layout {
+  display: block;
+}
+
+.grid_layout {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .slider_layout {
+    display: none;
+  }
+
+  .grid_layout {
+    display: block;
+  }
+}
